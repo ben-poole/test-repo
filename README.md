@@ -2,3 +2,9 @@
 
 Code block:
 
+```
+ { 
+  sdfsd: asdas,
+  dadesdfsdad: asdas
+ }
+```
