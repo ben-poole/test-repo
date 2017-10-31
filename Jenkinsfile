@@ -10,6 +10,7 @@ pipeline {
     stage('Build') {
       steps {
         sh 'mvn -v'
+        input 'Pause'
       }
     }
   }
