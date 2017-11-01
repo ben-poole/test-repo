@@ -20,8 +20,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'mvn -v'
         sh 'echo $GITHUB_TOKEN'
+        sh 'echo $PACKAGE_NAME'
         input 'Pause'
       }
     }
