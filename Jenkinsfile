@@ -7,8 +7,8 @@ pipeline {
   }
   environment {
         SLACK_CHANNEL = "#testing"
-        GITHUB_ORGANISATION = 'ukncsc'
-        GITHUB_TOKEN = credentials('buildbot-github-token')
+        GITHUB_ORGANISATION = 'my-org'
+        GITHUB_TOKEN = credentials('my-token')
         PACKAGE_NAME = "Needs to be overridden"
         PACKAGE_VERSION = "0.0.0"
     }
